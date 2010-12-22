@@ -119,7 +119,7 @@ feature -- Spec and test vector keys
 		local
 			vector_key: SPECIAL [NATURAL_8]
 		do
-			create vector_key.make_filled (0, 24)
+			create vector_key.make_filled (0, 32)
 			vector_key [0] := 0x00
 			vector_key [1] := 0x01
 			vector_key [2] := 0x02
